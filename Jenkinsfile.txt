@@ -3,7 +3,7 @@ pipeline {
     stages{
         stage ("Code Cloned"){
             steps{
-                git url: "https://github.com/SanketShirke/django-todo-app.git", branch: "main"
+                git url: "https://github.com/Mehulva42007/django-todo-app.git", branch: "main"
                 echo "Code Cloned"
             }
         }
